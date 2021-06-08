@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Sources">
+      <UniqueIdentifier>{42006cc8-0dfa-4f5e-97ca-e943e537f651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Sources\Item">
+      <UniqueIdentifier>{c323d9eb-e677-4a12-9417-1e15a174017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Sources\Player">
+      <UniqueIdentifier>{bd8ef17e-ea8e-4e38-80bd-82ddef815aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Sources\Server">
+      <UniqueIdentifier>{9a11410c-a007-4a00-b5f2-eda5553a2e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Sources\World">
+      <UniqueIdentifier>{4828b23c-ab81-41ff-86d1-884cda7efd9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\InternalPacket.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\GameInput.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\GamePacket.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\player\PlayerState.cpp">
+      <Filter>Header Sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\world\WorldData.cpp">
+      <Filter>Header Sources\World</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\ExternalVariable.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\Ranges.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\GameOutput.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\player\PlayerAction.cpp">
+      <Filter>Header Sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\world\WorldInfo.cpp">
+      <Filter>Header Sources\World</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\item\ItemVariable.cpp">
+      <Filter>Header Sources\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\item\ItemDatabase.cpp">
+      <Filter>Header Sources\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\player\PlayerInventory.cpp">
+      <Filter>Header Sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\player\PlayerInfo.cpp">
+      <Filter>Header Sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\world\WorldTile.cpp">
+      <Filter>Header Sources\World</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\server\GameDialog.cpp">
+      <Filter>Header Sources\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
