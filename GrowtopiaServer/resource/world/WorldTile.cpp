@@ -13,7 +13,7 @@ void WorldTile::sendRoulette(ENetHost* server, ENetPeer* peer) {
 	string numberCode = ((number % 2) == 0) ? "b" : "4";
 	numberCode = number == 0 ? "2" : numberCode;
 	
-	string message = "`o5[`0" + static_cast<PlayerData*>(peer->data)->displayName + "`o spun the wheel and got `" + numberCode + to_string(number) + "`o!`5]";
+	string message = "`5[`0" + static_cast<PlayerData*>(peer->data)->displayName + "`o spun the wheel and got `" + numberCode + to_string(number) + "`o!`5]";
 	for (ENetPeer* currentPeer : inRange(server)) {
 		if (PlayerInfo::isHere(peer, currentPeer)) {
 			Message::console(currentPeer, message, 2000);
